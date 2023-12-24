@@ -16,9 +16,8 @@ const MyPosts = () => {
                 New Post
             </div>
             <div className={styles.posts}>
-                <Post />
-                <Post />
-                <Post />
+                <Post message="Hi,how are u?"/>
+                <Post message="First Post"/>
             </div>
         </div>
     );
